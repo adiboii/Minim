@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@400;500&display=swap");
+/* Sass Tempalte */
+/* Global Classes */
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* typoghraphy classes */
+.font-opensans {
+    font-family: "Open Sans", cursive;
+}
+
+.font-oswald {
+    font-family: "Oswald", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* Color Template */
+.color-primary {
+    color: #303030;
+}
+
+.color-primary-bg {
+    background: #303030;
+}
+
+.color-secondary {
+    color: #47555e;
+}
+
+.color-secondary-bg {
+    background: #47555e;
+}
+
+/* Featured Products Template */
+#featured-products .owl-carousel .item .product a {
+    overflow: hidden;
+}
+#featured-products .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#featured-products .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#featured-products .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 35px;
+    color: #303030;
+    margin-left: -4rem;
+    padding: 0 1rem;
+}
+#featured-products .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#featured-products .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #303030;
+    margin-right: -4rem;
+    padding: 0 1rem;
+}
+
+#banner-area .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 35%;
+    outline: none;
+}
+#banner-area .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#banner-area .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 100px;
+    color: #fff;
+    margin-left: 0;
+    padding: 0 1rem;
+}
+#banner-area .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#banner-area .owl-carousel .owl-nav button.owl-next span {
+    font-size: 100px;
+    color: #fff;
+    margin-right: 0;
+    padding: 0 1rem;
+}
+
+/* Sidebar Template */
+* {
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: -350px;
+    height: 100vh;
+    z-index: 999;
+    background: #47555e;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #47555e;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #47555e;
+}
+
+#sidebar ul.components {
+    padding: 20px 0px;
+    border-bottom: 1px solid #475550;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 20px 30px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#sidebar ul li a:hover {
+    color: #47555e;
+    background: #fff;
+}
+
+a[data-toggle=collapse] {
+    position: relative;
+}
+
+a[aria-expanded=false]::before, a[aria-expanded=true]::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 0.6em;
+}
+
+a[aria-expanded=true]::before {
+    content: "";
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+#sidebarCollapse {
+    background: none;
+    border: none;
+    color: #47555e;
+}
+
+#navbarSupportedContent {
+    display: flex;
+}
+
+#navbarSupportedContent ul li {
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container-fluid {
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-brand img {
+    height: 75px;
+}
+
+/* Special Price Section template*/
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

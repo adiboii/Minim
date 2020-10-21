@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minim</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="/assets/images/logo.png">
+
+</head>
+<body>
+    <!-- start #header -->
+    <header>
+        <!-- Primary Navigation -->
+        <div class="wrapper font-oswald">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div id="dismiss">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+    
+                <div class="sidebar-header">
+                    <h3>Minim</h3>
+                </div>
+    
+                <ul class="list-unstyled components">
+                    <li class="active"><a href="#homeSubmenu">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+              
+                </ul>
+            </nav>
+            
+            
+            <!-- Page Content  -->
+            <div id="content">
+    
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  
+                    <div class="container-fluid">
+    
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        
+                      <a href="#" class="navbar-brand"><img src="/assets/images/logo.png" alt=""></a>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                                        <span class="font-size-20 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                                        <span class="px-3 py-2 rounded-pill text-white color-primary-bg">0</span>
+                                    </a>    
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fas fa-user-circle"></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fas fa-search"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+          <!-- !Primary Navigation -->
+
+    <!-- !start #header -->
+    </header>
+
+    <!-- start #main-site  -->
+        <main id="main-site">
+            <!-- Owl carousel -->
+            <section id="banner-area">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="/assets/images/banner3.jpg" alt="Banner-1">
+                    </div>
+                    <div class="item">
+                        <img src="/assets/images/banner2.jpg" alt="Banner-2">
+                    </div>
+                    <div class="item">
+                        <img src="/assets/images/banner1.jpg" alt="Banner-3">
+                    </div>
+                </div>
+            </section>
+            <!-- !Owl Carousel -->
+
+            <section id="featured-products">
+                <div class="container py-5">
+                    <h4 class="font-oswald font-size-20 text-center">Featured Products</h4>
+                    <hr>
+                    <!-- Owl carousel -->
+                        <div class="owl-carousel owl-theme">
+                            <div class="item py-2">
+                                <div class="product font-opensans" align="center">
+                                    <a href="#"><img src="/assets/images/products/2.jpg" alt="img-fluid" style="width: 300px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Dekora</h6>
+                                        <div class="price py-2">$259.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item py-2">
+                              <div class="product font-opensans" align="center">
+                                  <a href="#"><img src="/assets/images/products/5.jpg" alt="img-fluid" style="width: 300px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Sodderman</h6>
+                                        <div class="price py-2">$499.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item py-2">
+                              <div class="product font-opensans" align="center">
+                                  <a href="#"><img src="/assets/images/products/9.jpg" alt="img-fluid" style="width: 300px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Koppang</h6>
+                                        <div class="price py-2">$129.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item py-2">
+                              <div class="product font-opensans" align="center">
+                                  <a href="#"><img src="/assets/images/products/6.jpg" alt="img-fluid" style="width: 300px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Vallentuna</h6>
+                                        <div class="price py-2">$1,099.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="item py-2">
+                              <div class="product font-opensans" align="center">
+                                  <a href="#"><img src="/assets/images/products/8.jpg" alt="img-fluid" style="width: 300px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Harlanda</h6>
+                                        <div class="price py-2">$510.00</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    <!-- !Owl carousel -->
+                </div>
+            </section>
+
+            <!-- Special Price -->
+            <section id="special-price">
+                <div class="container">
+                    <h4 class="font-oswald font-size-20">Special Price</h4>
+                        <div id="filters" class="button-group text-right">
+                            <button class="btn is-checked" data-filter="*">All Products</button>
+                            <button class="btn" data-filter=".Furniture">Furniture</button>
+                            <button class="btn" data-filter=".Desks">Desks</button>
+                            <button class="btn" data-filter=".Storage">Storage</button>
+                        </div>
+                        <div class="grid">
+                            <div class="grid-item Desks border">
+                             <div class="item py-2" style="width: 200px;">
+                              <div class="product font-oswald" align="center">
+                                <a href="#"><img src="/assets/images/products/1.JPG" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                <div class="text-center">
+                                    <h6>Vigdis</h6>
+                                    <div class="price py-2">$129.99</div>
+                                    <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="grid-item Desks border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/2.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                 <div class="text-center">
+                                    <h6>Dekorera</h6>
+                                    <div class="price py-2">$259.99</div>
+                                    <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                </div>
+                               </div>
+                             </div>
+                             </div>
+                             <div class="grid-item Desks border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/3.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                 <div class="text-center">
+                                    <h6>Skarsta</h6>
+                                    <div class="price py-2">$99.99</div>
+                                    <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                </div>
+                               </div>
+                             </div>
+                             </div>
+                             <div class="grid-item Desks border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/4.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                 <div class="text-center">
+                                    <h6>Kivik</h6>
+                                    <div class="price py-2">$69.99</div>
+                                    <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                </div>
+                               </div>
+                             </div>
+                             </div>
+                             <div class="grid-item Furniture border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/5.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                 <div class="text-center">
+                                    <h6>Soderman</h6>
+                                    <div class="price py-2">$499.99</div>
+                                    <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                </div>
+                               </div>
+                             </div>
+                             </div>
+                             <div class="grid-item Furniture border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/6.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Vallentuna</h6>
+                                        <div class="price py-2">$1,099.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                            <div class="grid-item Furniture border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/7.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                      <div class="text-center">
+                                          <h6>Finnala</h6>
+                                          <div class="price py-2">$189.99</div>
+                                          <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                            <div class="grid-item Furniture border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/8.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                      <div class="text-center">
+                                          <h6>Harlanda</h6>
+                                          <div class="price py-2">$510.00</div>
+                                          <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                           
+                            <div class="grid-item Storage border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/9.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                        <div class="text-center">
+                                            <h6>Koppang</h6>
+                                            <div class="price py-2">$129.99</div>
+                                            <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        
+                            <div class="grid-item Storage border">
+                              <div class="item py-2" style="width: 200px;">
+                               <div class="product font-oswald" align="center">
+                                 <a href="#"><img src="/assets/images/products/10.jpg" alt="img-fluid" style="width: 200px; height: auto;" class="py-2"></a>
+                                    <div class="text-center">
+                                        <h6>Malm</h6>
+                                        <div class="price py-2">$179.99</div>
+                                        <button type="submit" class="btn btn-dark font-size-12">Add to Cart</button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                </div>
+            </section>
+            <!-- !Special Price -->
+
+
+       
+          <!-- Start Blogs -->
+          <!-- Blogs -->
+          <section id="blogs">
+            <div class="container py-4">
+              <h4 class="font-oswald font-size-20">Latest Blogs</h4>
+              <hr>
+
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card border-0 font-opensans mr-5" style="width: 18rem;">
+                    <h5 class="card-title font-size-16">Minimalism</h5>
+                    <img src="/assets/images/blog/blog1.webp" alt="cart image" class="card-img-top" style="height:400px; width:auto;">
+                    <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                    <a href="#" class="color-second text-left">Read Blog</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 font-opensans mr-5" style="width: 18rem;">
+                    <h5 class="card-title font-size-16">Creating Your Personal Space</h5>
+                    <img src="/assets/images/blog/blog2.webp" alt="cart image" class="card-img-top" style="height:400px; width:auto;">
+                    <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                    <a href="#" class="color-second text-left">Read Blog</a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 font-opensans mr-5" style="width: 18rem;">
+                    <h5 class="card-title font-size-16">Zen in Design</h5>
+                    <img src="/assets/images/blog/blog3.webp" alt="cart image" class="card-img-top" style="height:400px; width:auto;">
+                    <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                    <a href="#" class="color-second text-left">Read Blog</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- !Blogs -->
+          <!-- !Start Blogs -->
+
+        </main>
+    <!-- !start #main-site -->
+    
+  <!-- start #footer -->
+  <footer id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12">
+          <h4 class="font-oswald font-size-20">Minim</h4>
+          <p class="font-size-14 font-opensans text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h4 class="font-oswald font-size-20">Newslatter</h4>
+          <form class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email *">
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4 class="font-oswald font-size-20">Information</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">About Us</a>
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">Delivery Information</a>
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">Privacy Policy</a>
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4 class="font-oswald font-size-20">Account</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">My Account</a>
+            <a href="#" class="font-opensansfont-size-14 text-white-50 pb-1">Order History</a>
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">Wish List</a>
+            <a href="#" class="font-opensans font-size-14 text-white-50 pb-1">Newslatters</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-opensans font-size-14">&copy; Copyrights 2020</p>
+  </div>
+<!-- !start #footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- jQuery Isotope CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+    <!-- Custom js -->
+    <script src="script.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+</body>
+</html>

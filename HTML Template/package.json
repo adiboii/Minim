@@ -1,0 +1,12 @@
+{
+  "name": "minim",
+  "version": "1.0.0",
+  "description": "E-commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "author": "Adrian Paul N. Reyes",
+  "license": "ISC"
+}
