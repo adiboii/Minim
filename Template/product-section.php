@@ -25,7 +25,7 @@ foreach ($product->getData() as $item) :
                                 echo '<button type="submit" disabled class="btn btn-success font-size-16 form-control">In the Cart</button>';
                             }else{
                                 echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-16 form-control">Add to Cart</button>';
-                                $item_id = $_GET['item_id'];
+
                             }
                             ?>
 
